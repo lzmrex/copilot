@@ -15,6 +15,6 @@
 1. 打开公用的智能体，比如，豆包，deepseek,chatgpt等等。
 2. 输入awesome-design-md项目的地址（https://github.com/VoltAgent/awesome-design-md/），叫智能体学习。比如：
   “帮我总结提炼这篇文章的主要内容：https://github.com/VoltAgent/awesome-design-md/”
-3. 输入一张你想要的UI图片或者Url,然后，叫智能体生成design.md文档。
+3. 学习之后，输入一张你想要的UI图片或者Url,然后叫智能体生成design.md文档。
 4. 把生成的design.md拷贝到项目的根路径，生成前端项目。参考场景1.
 
