@@ -3,4 +3,6 @@ copilot cli文档：https://github.com/features/copilot/cli
   mac电脑安装：
   brew install copilot-cli
 
-2. 终端项目目录下输入 copilot 启动，第一次进去要 /login 登录一下
+2. 终端项目目录下输入 copilot 启动，第一次进去要 /login 登录一下。
+>copilot
+#第一次需要登录，命令行中会给出登录相关的命令。
