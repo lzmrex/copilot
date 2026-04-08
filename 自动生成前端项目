@@ -1,20 +1,31 @@
-使用awesome-design-md + ai coding可以轻松实现你想要的前端项目。
+借助awesome-design-md + AI Coding，轻松搞定前端UI开发
 
+在前端开发过程中，UI搭建往往是耗时又费力的环节——既要兼顾美观性，又要保证兼容性，还要熟练运用各类技术栈编写代码。而awesome-design-md与AI Coding的组合，打破了传统开发模式的局限，让前端项目的UI实现变得高效、简单，即使是对UI设计不够熟悉的开发者，也能快速搭建出符合预期的前端界面。
 
-场景1:
-具体步骤：
-1. 阅读awesome-design-md项目，这个项目里收集了众多知名网站的UI。https://github.com/VoltAgent/awesome-design-md/
-2. 选择一个项目，拷贝DESIGN.md到你的项目的根路径。
-3. 打开ai coding命令窗口，输入：
-❯ @DESIGN_niogpt.md 按这个文件生成UI。要求：1. 使用技术栈typescript, vue等主流技术 2. 构建工具vite
-4. 就自动生成了前端项目。
+awesome-design-md是一个开源项目，其核心价值在于收集了众多知名网站的UI设计方案，并以DESIGN.md文档的形式整理呈现，开发者无需从零设计，只需按需选用或定制，再配合AI Coding工具，就能自动生成符合技术要求的前端代码，大幅降低开发成本，提升开发效率。下面就为大家详细介绍两种核心使用场景，手把手教你快速实现前端项目。
 
-场景2:
-如果awesome-design-md项目中没有你想要的页面，怎么办？我们可以定制设计模版。步骤如下：
+场景一：直接复用现有UI，快速生成前端项目
 
-1. 打开公用的智能体，比如，豆包，deepseek,chatgpt等等。
-2. 输入awesome-design-md项目的地址（https://github.com/VoltAgent/awesome-design-md/），叫智能体学习。比如：
-  “帮我总结提炼这篇文章的主要内容：https://github.com/VoltAgent/awesome-design-md/”
-3. 学习之后，输入一张你想要的UI图片或者Url,然后叫智能体生成design.md文档。
-4. 把生成的design.md拷贝到项目的根路径，生成前端项目。参考场景1.
+如果awesome-design-md项目中已收录你需要的UI样式，那么无需额外设计，按照以下4个简单步骤，就能快速生成完整的前端项目，全程无需手动编写大量代码。
 
+第一步，熟悉awesome-design-md项目。首先访问项目地址：https://github.com/VoltAgent/awesome-design-md/，仔细阅读项目说明，了解其收录的UI资源范围。该项目整合了各类主流网站的经典UI，涵盖不同行业、不同风格，你可以从中挑选与自己项目需求匹配的UI案例。
+
+第二步，拷贝DESIGN.md文件。找到心仪的UI案例后，将该案例对应的DESIGN.md文件拷贝到你自己项目的根路径下。这个文件包含了该UI的完整设计规范和细节，是AI生成代码的核心依据，无需进行任何修改，直接拷贝即可。
+
+第三步，使用AI Coding生成代码。打开AI Coding的命令窗口，输入指令：❯ @DESIGN_niogpt.md 按这个文件生成UI。要求：1. 使用技术栈typescript, vue等主流技术 2. 构建工具vite。这里需要注意，明确指定技术栈和构建工具，能让AI生成的代码更贴合你的项目需求，避免后续二次修改。
+
+第四步，自动生成前端项目。输入指令后，AI Coding会自动读取根路径下的DESIGN.md文件，按照指定的技术栈和构建工具，生成完整的前端项目代码，包括页面结构、样式、交互逻辑等，生成完成后，你只需启动项目，就能看到与所选UI一致的前端界面。
+
+场景二：定制UI模板，满足个性化需求
+
+如果awesome-design-md项目中没有你想要的页面样式，也无需担心，我们可以通过智能体定制DESIGN.md文档，再按照场景一的步骤生成前端项目，轻松满足个性化UI需求，具体步骤如下。
+
+第一步，打开公用智能体。选择一款常用的公用智能体工具，比如豆包、DeepSeek、ChatGPT等，这些工具具备强大的学习和生成能力，能够快速理解awesome-design-md的项目规范，并根据你的需求生成符合要求的DESIGN.md文档。
+
+第二步，让智能体学习awesome-design-md项目。将awesome-design-md的项目地址（https://github.com/VoltAgent/awesome-design-md/）输入智能体，同时给出学习指令，例如：“帮我总结提炼这篇文章的主要内容：https://github.com/VoltAgent/awesome-design-md/”。通过这一步，智能体能快速掌握该项目的DESIGN.md文档规范、UI设计逻辑，为后续生成定制化文档打下基础。
+
+第三步，生成定制化DESIGN.md文档。学习完成后，将你想要的UI图片或UI页面的URL发送给智能体，同时指令智能体生成对应的DESIGN.md文档。这里需要注意，提供的UI图片或URL越清晰、细节越完整，智能体生成的文档就越精准，后续AI生成的代码也会更贴合你的预期。
+
+第四步，生成前端项目。将智能体生成的DESIGN.md文档拷贝到你项目的根路径下，之后参考场景一的第三步和第四步，使用AI Coding输入对应指令，就能自动生成符合个性化UI需求的前端项目，全程高效且无需手动编写复杂代码。
+
+无论是复用现有UI，还是定制个性化模板，awesome-design-md与AI Coding的组合都能极大简化前端UI开发的流程，让开发者从繁琐的代码编写中解放出来，将更多精力放在项目的核心功能开发上。对于前端开发者而言，这不仅是提升开发效率的利器，更是降低UI开发门槛的有效方式，让每一个人都能轻松实现自己想要的前端项目。
