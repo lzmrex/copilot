@@ -1,0 +1,20 @@
+使用awesome-design-md + ai coding可以轻松实现你想要的前端项目。
+
+
+场景1:
+具体步骤：
+1. 阅读awesome-design-md项目，这个项目里收集了众多知名网站的UI。https://github.com/VoltAgent/awesome-design-md/
+2. 选择一个项目，拷贝DESIGN.md到你的项目的根路径。
+3. 打开ai coding命令窗口，输入：
+❯ @DESIGN_niogpt.md 按这个文件生成UI。要求：1. 使用技术栈typescript, vue等主流技术 2. 构建工具vite
+4. 就自动生成了前端项目。
+
+场景2:
+如果awesome-design-md项目中没有你想要的页面，怎么办？我们可以定制设计模版。步骤如下：
+
+1. 打开公用的智能体，比如，豆包，deepseek,chatgpt等等。
+2. 输入awesome-design-md项目的地址（https://github.com/VoltAgent/awesome-design-md/），叫智能体学习。比如：
+  “帮我总结提炼这篇文章的主要内容：https://github.com/VoltAgent/awesome-design-md/”
+3. 输入一张你想要的UI图片或者Url,然后，叫智能体生成design.md文档。
+4. 把生成的design.md拷贝到项目的根路径，生成前端项目。参考场景1.
+
